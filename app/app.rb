@@ -15,5 +15,5 @@ match '/' do
   erb :index
 end
 match '/like/?' do
-  erb :like
+  erb :like, :layout => nil
 end
