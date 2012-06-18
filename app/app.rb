@@ -14,3 +14,6 @@ end
 match '/' do
   erb :index
 end
+match '/like/?' do
+  erb :like
+end
